@@ -1,11 +1,11 @@
-import { Route, Routes, Link } from "react-router-dom";
-import { Company } from "./components/pages/Company";
-import { Home } from "./components/pages/Home";
-import { Contact } from "./components/pages/Contact";
-import { NewProject } from "./components/pages/NewProject";
+import { Route, Routes } from "react-router-dom";
 import { Container } from "./components/layout/Container";
-import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
+import { Navbar } from "./components/layout/Navbar";
+import { Company } from "./components/pages/Company";
+import { Contact } from "./components/pages/Contact";
+import { Home } from "./components/pages/Home";
+import { NewProject } from "./components/pages/NewProject";
 
 export function App() {
   return (
@@ -20,6 +20,6 @@ export function App() {
         </Routes>
       </Container>
       <Footer />
-      </>
+    </>
   );
 }

@@ -1,5 +1,5 @@
 .container {
-  width: 75rem ;
+  width: 75rem;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -7,7 +7,7 @@
 }
 
 .min-height {
-    min-height: 75%;
+  min-height: 75%;
 }
 
 .start {
