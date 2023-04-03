@@ -11,7 +11,7 @@ export function Navbar() {
         <nav>
             <Container >
                 <Link to="/">
-                    <img src="{logo}" alt="costs" />
+                    <img src={logo} alt="desenho de um círculo verde com o desenho de um cifrão branco no meio" />
                 </Link>
             <Link to="/"> Home </Link>
             <Link to="/contact"> Contact </Link>
